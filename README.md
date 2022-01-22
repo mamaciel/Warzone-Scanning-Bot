@@ -24,6 +24,7 @@ You also need to download pytesseract and include the path in the code. Just cop
 
 How does the bot work?
 I gave it a few examples to use as comparison. I turned them to grayscale to try to reduce the time it takes for it to compare and increase accuracy. Using PyAuto GUI it analyzes the bottom of the screen where usernames appear when you kill or get killed by a player. Once it finds something similar it will screenshot it with mss (very fast) and using a little bit of image processing with cv2 to enlarge the image, it uses pytesseract to convert the image to string. Once converted to string it tries to remove the clan tag from the username. It does this by removing any [clan]* combination between brackets. It then removes the hashtag and adds a percent sign and adds the number 23 to the right of it like the cod.tracker.gg website does. It then inserts that username into a cod.tracker.gg link and using selenium webscrapes basic stats on the first page. (See images below)
+
 ![image](https://user-images.githubusercontent.com/47039827/150621140-e56e657b-c580-49e3-b24c-4bddd2a14af3.png)
 ![image](https://user-images.githubusercontent.com/47039827/150621146-dd0ba70b-7218-4aaf-a0d2-30963c183874.png)
 
