@@ -11,7 +11,7 @@ What libraries does it use?
 * MSS
 
 How to run it? 
-Main file is botSeleniumMoreChecks.py
+Main file is: Warzone Scanning Bot.py
 What you want to make sure you do is have the correct version of chromedriver. 
 To do this, go to Google Chrome's about page and check which version you have of Chrome, for example I have 97.
 ![image](https://user-images.githubusercontent.com/47039827/150620152-56ea6a67-d0fb-4c15-8448-01ccdc3a7ac8.png)
