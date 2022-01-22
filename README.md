@@ -1,4 +1,4 @@
-# Warzone-Scanning-Bot
+# Warzone-Scanning-Bot (Python)
 This is basically a bot created for Warzone that reads the screen and detects the people you kill/get killed by and it webscrapes their stats from cod.tracker.gg. This can be used to help you identify a cheater.
 
 What libraries does it use?
@@ -27,5 +27,3 @@ I gave it a few examples to use as comparison. I turned them to grayscale to try
 
 ![image](https://user-images.githubusercontent.com/47039827/150621140-e56e657b-c580-49e3-b24c-4bddd2a14af3.png)
 ![image](https://user-images.githubusercontent.com/47039827/150621146-dd0ba70b-7218-4aaf-a0d2-30963c183874.png)
-
-
